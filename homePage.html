@@ -1,0 +1,104 @@
+<DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="homePage.css" rel="stylesheet"  />
+    <script async src="homePage.js"></script>
+  </head>
+
+  <title>My Portfolio</title>
+
+  <body>
+    <header>
+      <nav class="top">
+        <ul class="links">
+          <li class="links"><a href="homePage.html">Home</a></li>
+          <li class="links"><a href="#about">About</a></li>
+          <li class="links"><a href="Resume.html">Resume</a></li>
+          <li class="links">
+            <div class="dropdown">
+              <button class="dropbtn">Javascript</button>
+              <div class="dropdown-content">
+                <a href="JS_1/co_cart.html">Shopping Cart</a>
+                <a href="JS_2/bc_fed.html">Bridger College</a>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="links">
+            <div class="dropdown">
+              <button class="dropbtn">HTML</button>
+              <div class="dropdown-content">
+                <a href="HTML_Sample1/mi_pricing.html" action="marlinInternet()">Marlin Internet</a>
+                <a href="HTML_Sample2/rb_customer.html" action="redBallPizza()">Red Ball Pizza</a>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="links"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  <div class=scrolling>
+  <div class="caption">
+    <span class="border">Shannie Briere</span>
+    </div>
+  </div>
+    <a id="about"></a>
+    <div class="About">
+      <h2>About</h2>
+      <p>Shannie Briere is a Bachelor of Commerce Graduate who is currently
+        studying Computer Science. She is interested in eventually applying
+        gender studies to Computer Science. With international work experience
+        she looks forward to embarking on a career in the United States.
+        </p>
+      </div>
+
+      <div class=scrolling2>
+      </div>
+
+  <div class="Contact">
+    <a id="contact"></a>
+    <h3>Get In Touch</h3>
+    <hr>
+    <p> If you would like to get into contact with me, please fill out the form below.
+      I will get in touch as soon as possible.
+    </p>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+            <label for="fname">First Name</label>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="First name">
+          </div>
+        </div>
+        <div class="row">
+            <label for="lname">Last Name</label>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Last name">
+          </div>
+        </div>
+        <div class="row">
+            <label for="lname">Last Name</label>
+          <div class="col-75">
+            <input type="text" id="email name="email placeholder="Please enter your email">
+          </div>
+        </div>
+        <div class="row">
+            <label for="subject">Message</label>
+          <div class="col-30">
+            <textarea id="subject" name="subject" placeholder="How can I help?" style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
